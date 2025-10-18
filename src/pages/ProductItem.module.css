@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  height: 100%;
+  padding: 2.4rem;
+  overscroll-behavior-y: contain;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100px 500px 200px;
+  position: relative;
+  gap: 1.6rem;
+  width: 80%;
+  margin: auto;
+}

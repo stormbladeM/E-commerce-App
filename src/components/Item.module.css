@@ -1,0 +1,36 @@
+.item p {
+  text-align: start;
+  font-size: 10px;
+  font-weight: 700;
+  text-wrap: wrap;
+  padding: 0 5px;
+  color: rgb(72, 66, 66);
+}
+a {
+  text-decoration: none;
+}
+.item {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 80px;
+  width: 13%;
+  height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+.imgContainer {
+  height: 80%;
+}
+.imgContainer img {
+  width: 70%;
+  height: 70%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

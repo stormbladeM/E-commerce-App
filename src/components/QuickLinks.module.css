@@ -1,0 +1,13 @@
+.QuickLinks ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  align-self: center;
+}
+.QuickLinks ul li {
+  cursor: pointer;
+
+  font-weight: bold;
+}

@@ -2,6 +2,8 @@ import { ProductProvider } from "./contexts/useProductContext";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Applayout from "./ui/Applayout";
 import ProductItem from "./ui/ProductItem";
+import CartPage from "./pages/CartPage";
+import WishlistPage from "./pages/WishlistPage";
 const BASE_URL = "http://localhost:8000/";
 
 function App() {

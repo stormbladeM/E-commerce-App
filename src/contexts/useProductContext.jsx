@@ -7,11 +7,23 @@ import {
 } from "react";
 const BASE_URL = "https://fakestoreapi.com/products";
 const ProductContext = createContext();
+
+// Load wishlist from localStorage
+const loadWishlist = () => {
+  try {
+    const saved = localStorage.getItem("wishlist");
+    return saved ? JSON.parse(saved) : [];
+  } catch {
+    return [];
+  }
+};
+
 const initialState = {
   cart: [],
   count: 1,
   products: [],
   step: 0,
+  wishlist: loadWishlist(),
   filters: {
     category: "all",
     priceRange: { min: 0, max: 1000 },
@@ -74,6 +86,33 @@ function reducer(state, action) {
         cart: state.cart.filter((item) => item.id !== action.payload.id),
       };
 
+    case "toggle-wishlist": {
+      const { product } = action.payload;
+      const isInWishlist = state.wishlist.some((item) => item.id === product.id);
+      const newWishlist = isInWishlist
+        ? state.wishlist.filter((item) => item.id !== product.id)
+        : [...state.wishlist, product];
+      
+      // Save to localStorage
+      localStorage.setItem("wishlist", JSON.stringify(newWishlist));
+      
+      return {
+        ...state,
+        wishlist: newWishlist,
+      };
+    }
+
+    case "remove-from-wishlist": {
+      const newWishlist = state.wishlist.filter(
+        (item) => item.id !== action.payload.id
+      );
+      localStorage.setItem("wishlist", JSON.stringify(newWishlist));
+      return {
+        ...state,
+        wishlist: newWishlist,
+      };
+    }
+
     case "set-filter":
       return {
         ...state,
@@ -92,7 +131,7 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ cart, count, clicked, products, step, filters }, dispatch] =
+  const [{ cart, count, clicked, products, step, filters, wishlist }, dispatch] =
     useReducer(reducer, initialState);
 
   const [query, setQuery] = useState("");
@@ -149,6 +188,7 @@ function ProductProvider({ children }) {
         count,
         step,
         filters,
+        wishlist,
       }}
     >
       {children}

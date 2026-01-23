@@ -1,13 +1,51 @@
 .QuickLinks ul {
-  list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   align-items: center;
-  gap: 20px;
-  align-self: center;
 }
-.QuickLinks ul li {
-  cursor: pointer;
 
-  font-weight: bold;
+.QuickLinks li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+
+.QuickLinks li:hover {
+  background: #f5f5f5;
+  color: #ff9800;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
 }

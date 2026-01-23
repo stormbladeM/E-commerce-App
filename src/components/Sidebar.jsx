@@ -51,7 +51,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto">
+    <div className="bg-white rounded-xl shadow-md h-fit sticky top-0">
       <div className="p-6">
         <div className="flex items-center gap-2 mb-6 pb-4 border-b-2 border-gray-100">
           <FaFilter className="text-orange-500" />

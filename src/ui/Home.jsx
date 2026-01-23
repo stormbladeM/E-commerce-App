@@ -41,7 +41,7 @@ function Home() {
   }
 
   return (
-    <div className="min-h-full bg-gray-50 p-6">
+    <div className="pb-6">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-orange-500 to-pink-500 rounded-2xl p-8 mb-8 text-white">
         <h1 className="text-4xl font-bold mb-2">Welcome to Our Store! 🛍️</h1>
@@ -71,7 +71,7 @@ function Home() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {products.map((product) => (
           <div
             key={product.id}

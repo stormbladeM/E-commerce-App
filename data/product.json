@@ -1,544 +1,499 @@
 {
   "products": [
     {
-      "id": 1001,
-      "name": "Noise-Cancelling Over-Ear Headphones",
-      "price": 199.99,
-      "description": "Premium comfort and crystal-clear audio with industry-leading noise cancellation.",
-      "image_url": "https://picsum.photos/seed/headphones/300/300",
+      "id": "1",
+      "name": "MacBook Pro 14\"",
       "category": "Electronics",
-      "rating": 4.8
+      "price": 1999.99,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 1002,
-      "name": "Portable Bluetooth Speaker (Waterproof)",
-      "price": 79.99,
-      "description": "Deep bass and 24-hour battery life. Perfect for pool parties and camping.",
-      "image_url": "https://picsum.photos/seed/speaker/300/300",
+      "id": "2",
+      "name": "iPhone 14",
       "category": "Electronics",
-      "rating": 4.5
+      "price": 799.99,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 1003,
-      "name": "Smart Home Hub with Voice Assistant",
-      "price": 49.0,
-      "description": "Control lights, locks, and media with simple voice commands.",
-      "image_url": "https://picsum.photos/seed/smarthub/300/300",
-      "category": "Electronics",
-      "rating": 4.7
-    },
-    {
-      "id": 1004,
-      "name": "Ultra-Thin Wireless Charging Pad",
-      "price": 29.95,
-      "description": "Fast charge your devices up to 15W. Non-slip surface and minimalist design.",
-      "image_url": "https://picsum.photos/seed/chargerpad/300/300",
-      "category": "Electronics",
-      "rating": 4.3
-    },
-    {
-      "id": 1005,
-      "name": "Curved 4K Gaming Monitor (27 inch)",
-      "price": 349.0,
-      "description": "144Hz refresh rate with stunning color accuracy for immersive gaming.",
-      "image_url": "https://picsum.photos/seed/monitor/300/300",
-      "category": "Electronics",
-      "rating": 4.6
-    },
-    {
-      "id": 1006,
-      "name": "High-Speed Mesh WiFi Router",
-      "price": 149.99,
-      "description": "Eliminate dead zones and provide seamless connectivity across large homes.",
-      "image_url": "https://picsum.photos/seed/router/300/300",
-      "category": "Electronics",
-      "rating": 4.4
-    },
-    {
-      "id": 2001,
-      "name": "Organic Whole Grain Pasta",
-      "price": 4.5,
-      "description": "Made from 100% organic durum wheat. High in fiber and protein.",
-      "image_url": "https://picsum.photos/seed/pasta/300/300",
-      "category": "Food",
-      "rating": 4.8
-    },
-    {
-      "id": 2002,
-      "name": "Artisan Dark Roast Coffee Beans",
-      "price": 14.99,
-      "description": "Ethically sourced, single-origin beans with notes of chocolate and caramel.",
-      "image_url": "https://picsum.photos/seed/coffee/300/300",
-      "category": "Food",
-      "rating": 4.9
-    },
-    {
-      "id": 2003,
-      "name": "Spicy Chili Oil with Crispies",
-      "price": 8.0,
-      "description": "Hand-mixed chili flakes and savory spices in premium vegetable oil.",
-      "image_url": "https://picsum.photos/seed/chilioil/300/300",
-      "category": "Food",
-      "rating": 4.6
-    },
-    {
-      "id": 2004,
-      "name": "Premium California Almonds (1kg)",
-      "price": 12.5,
-      "description": "Raw, unsalted, and perfect for snacking or baking. Rich in Vitamin E.",
-      "image_url": "https://picsum.photos/seed/almonds/300/300",
-      "category": "Food",
-      "rating": 4.7
-    },
-    {
-      "id": 2005,
-      "name": "French Sourdough Starter Kit",
-      "price": 19.99,
-      "description": "Everything you need to bake authentic, chewy sourdough bread at home.",
-      "image_url": "https://picsum.photos/seed/sourdough/300/300",
-      "category": "Food",
-      "rating": 4.5
-    },
-    {
-      "id": 2006,
-      "name": "Assorted Exotic Teas Set (20 bags)",
-      "price": 9.99,
-      "description": "Collection of black, green, and herbal teas from around the world.",
-      "image_url": "https://picsum.photos/seed/teaset/300/300",
-      "category": "Food",
-      "rating": 4.8
-    },
-    {
-      "id": 3001,
-      "name": "Foldable Mini Drone with HD Camera",
+      "id": "3",
+      "name": "Running Shoes",
+      "category": "Clothing",
       "price": 89.99,
-      "description": "Compact, easy to fly, and captures 1080p video. Great for beginners.",
-      "image_url": "https://picsum.photos/seed/drone/300/300",
-      "category": "Gadgets",
-      "rating": 4.4
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 3002,
-      "name": "Smart Fingerprint Padlock",
-      "price": 39.0,
-      "description": "Keyless entry for lockers, bikes, or cabinets. Stores up to 10 unique fingerprints.",
-      "image_url": "https://picsum.photos/seed/padlock/300/300",
-      "category": "Gadgets",
-      "rating": 4.6
-    },
-    {
-      "id": 3003,
-      "name": "Portable Solar Power Bank (20000mAh)",
-      "price": 59.99,
-      "description": "Charge your devices using solar power or USB. Built-in flashlight.",
-      "image_url": "https://picsum.photos/seed/powerbank/300/300",
-      "category": "Gadgets",
-      "rating": 4.7
-    },
-    {
-      "id": 3004,
-      "name": "Laser Projection Keyboard",
-      "price": 119.0,
-      "description": "Projects a full-size, functional keyboard onto any flat surface. Connects via Bluetooth.",
-      "image_url": "https://picsum.photos/seed/keyboard/300/300",
-      "category": "Gadgets",
-      "rating": 4.1
-    },
-    {
-      "id": 3005,
-      "name": "Digital Stylus Pen for Tablets",
-      "price": 25.5,
-      "description": "High precision and palm rejection technology for natural writing and drawing.",
-      "image_url": "https://picsum.photos/seed/stylus/300/300",
-      "category": "Gadgets",
-      "rating": 4.5
-    },
-    {
-      "id": 3006,
-      "name": "USB Powered Mini Desk Fridge",
-      "price": 32.99,
-      "description": "Keeps a single can of soda or small snack cool right at your desk.",
-      "image_url": "https://picsum.photos/seed/minifridge/300/300",
-      "category": "Gadgets",
-      "rating": 4.2
-    },
-    {
-      "id": 4001,
-      "name": "Omega-3 Fish Oil Supplements (90ct)",
-      "price": 22.99,
-      "description": "Supports heart, brain, and joint health. No artificial flavors or colors.",
-      "image_url": "https://picsum.photos/seed/supplements/300/300",
-      "category": "Health",
-      "rating": 4.8
-    },
-    {
-      "id": 4002,
-      "name": "Digital Blood Pressure Monitor",
-      "price": 39.5,
-      "description": "Upper arm cuff with large display and memory storage for two users.",
-      "image_url": "https://picsum.photos/seed/bpmonitor/300/300",
-      "category": "Health",
-      "rating": 4.5
-    },
-    {
-      "id": 4003,
-      "name": "Aromatherapy Essential Oil Diffuser",
-      "price": 25.0,
-      "description": "Ultrasonic diffuser with color-changing LED lights and auto shut-off.",
-      "image_url": "https://picsum.photos/seed/diffuser/300/300",
-      "category": "Health",
-      "rating": 4.6
-    },
-    {
-      "id": 4004,
-      "name": "Yoga Mat (Non-Slip, Extra Thick)",
-      "price": 34.99,
-      "description": "Provides superior cushioning and grip for all types of yoga and fitness routines.",
-      "image_url": "https://picsum.photos/seed/yogamat/300/300",
-      "category": "Health",
-      "rating": 4.7
-    },
-    {
-      "id": 4005,
-      "name": "Herbal Sleep Aid Capsules (60ct)",
-      "price": 18.75,
-      "description": "Natural blend of chamomile and melatonin to promote restful, deep sleep.",
-      "image_url": "https://picsum.photos/seed/sleepaid/300/300",
-      "category": "Health",
-      "rating": 4.3
-    },
-    {
-      "id": 4006,
-      "name": "Digital Smart Scale (BMI Tracker)",
-      "price": 45.0,
-      "description": "Measures weight, BMI, and body fat. Connects to smartphone for tracking.",
-      "image_url": "https://picsum.photos/seed/smartscale/300/300",
-      "category": "Health",
-      "rating": 4.5
-    },
-    {
-      "id": 5001,
-      "name": "Luxury Egyptian Cotton Towel Set",
-      "price": 59.99,
-      "description": "Extra plush, absorbent, and durable. Includes 2 bath towels and 2 hand towels.",
-      "image_url": "https://picsum.photos/seed/towelset/300/300",
-      "category": "Home",
-      "rating": 4.7
-    },
-    {
-      "id": 5002,
-      "name": "Set of 3 Floating Wall Shelves",
-      "price": 35.0,
-      "description": "Minimalist design with concealed mounting hardware. Perfect for displaying decor.",
-      "image_url": "https://picsum.photos/seed/shelves/300/300",
-      "category": "Home",
-      "rating": 4.4
-    },
-    {
-      "id": 5003,
-      "name": "Geometric Area Rug (5x7 ft)",
-      "price": 149.0,
-      "description": "Soft underfoot with a modern grey and white geometric pattern.",
-      "image_url": "https://picsum.photos/seed/arearug/300/300",
-      "category": "Home",
-      "rating": 4.6
-    },
-    {
-      "id": 5004,
-      "name": "LED Dimmable Floor Lamp",
-      "price": 79.95,
-      "description": "Tall, slim lamp with adjustable brightness and warm white light.",
-      "image_url": "https://picsum.photos/seed/floorlamp/300/300",
-      "category": "Home",
-      "rating": 4.5
-    },
-    {
-      "id": 5005,
-      "name": "Smart Door Lock with Keypad",
-      "price": 119.99,
-      "description": "Keyless entry and remote access control. Easy installation.",
-      "image_url": "https://picsum.photos/seed/doorlock/300/300",
-      "category": "Home",
-      "rating": 4.8
-    },
-    {
-      "id": 5006,
-      "name": "Airtight Food Storage Container Set (5-Pack)",
-      "price": 29.99,
-      "description": "Keeps pantry items fresh longer. Stackable and BPA-free.",
-      "image_url": "https://picsum.photos/seed/containers/300/300",
-      "category": "Home",
-      "rating": 4.7
-    },
-    {
-      "id": 6001,
-      "name": "12-Piece Stainless Steel Cookware Set",
-      "price": 189.0,
-      "description": "Includes pots, pans, and lids. Induction ready and dishwasher safe.",
-      "image_url": "https://picsum.photos/seed/cookwareset/300/300",
-      "category": "Kitchen",
-      "rating": 4.6
-    },
-    {
-      "id": 6002,
-      "name": "High-Speed Countertop Blender (1200W)",
-      "price": 89.99,
-      "description": "Crush ice and blend tough ingredients easily. Includes personal blending cup.",
-      "image_url": "https://picsum.photos/seed/blender/300/300",
-      "category": "Kitchen",
-      "rating": 4.7
-    },
-    {
-      "id": 6003,
-      "name": "Digital Air Fryer (5.8 Quart)",
-      "price": 75.5,
-      "description": "Enjoy crispy food with little to no oil. Eight preset cooking modes.",
-      "image_url": "https://picsum.photos/seed/airfryer/300/300",
-      "category": "Kitchen",
-      "rating": 4.8
-    },
-    {
-      "id": 6004,
-      "name": "Bamboo Cutting Board Set (3 Sizes)",
-      "price": 29.99,
-      "description": "Eco-friendly and durable bamboo with juice grooves. Easy to clean.",
-      "image_url": "https://picsum.photos/seed/cuttingboard/300/300",
-      "category": "Kitchen",
-      "rating": 4.5
-    },
-    {
-      "id": 6005,
-      "name": "Automatic Espresso Machine",
-      "price": 299.0,
-      "description": "Grinds beans and brews espresso with a touch of a button. Built-in milk frother.",
-      "image_url": "https://picsum.photos/seed/espresso/300/300",
-      "category": "Kitchen",
-      "rating": 4.9
-    },
-    {
-      "id": 6006,
-      "name": "Electric Hand Mixer (5 Speed)",
-      "price": 21.5,
-      "description": "Lightweight and powerful mixer for baking and cooking tasks. Includes whisk and dough hooks.",
-      "image_url": "https://picsum.photos/seed/handmixer/300/300",
-      "category": "Kitchen",
-      "rating": 4.4
-    },
-    {
-      "id": 7001,
-      "name": "Pro Tennis Racket (Graphite Composite)",
-      "price": 145.0,
-      "description": "Excellent balance of power and control. Used by professional athletes.",
-      "image_url": "https://picsum.photos/seed/tennis/300/300",
-      "category": "Sports",
-      "rating": 4.8
-    },
-    {
-      "id": 7002,
-      "name": "High-Density Foam Roller (36 inch)",
-      "price": 25.0,
-      "description": "Essential tool for muscle recovery, physical therapy, and deep tissue massage.",
-      "image_url": "https://picsum.photos/seed/foamroller/300/300",
-      "category": "Sports",
-      "rating": 4.6
-    },
-    {
-      "id": 7003,
-      "name": "Digital Waterproof Fitness Tracker",
-      "price": 69.99,
-      "description": "Monitors heart rate, steps, sleep, and tracks over 15 sport modes.",
-      "image_url": "https://picsum.photos/seed/fitnesstracker/300/300",
-      "category": "Sports",
-      "rating": 4.7
-    },
-    {
-      "id": 7004,
-      "name": "Resistance Band Set (5 Levels)",
-      "price": 19.95,
-      "description": "Perfect for home workouts, physical therapy, and toning exercises.",
-      "image_url": "https://picsum.photos/seed/resistancebands/300/300",
-      "category": "Sports",
-      "rating": 4.5
-    },
-    {
-      "id": 7005,
-      "name": "Adjustable Dumbbell Set (5-52.5 lbs)",
-      "price": 299.0,
-      "description": "One set replaces 15 individual dumbbells. Space-saving design for home gyms.",
-      "image_url": "https://picsum.photos/seed/dumbbells/300/300",
-      "category": "Sports",
-      "rating": 4.9
-    },
-    {
-      "id": 7006,
-      "name": "Hydration Backpack for Running (5L)",
-      "price": 45.5,
-      "description": "Lightweight vest with 2L bladder included. Minimal bounce for long-distance running.",
-      "image_url": "https://picsum.photos/seed/runningpack/300/300",
-      "category": "Sports",
-      "rating": 4.4
-    },
-    {
-      "id": 8001,
-      "name": "Remote Control Stunt Car",
-      "price": 35.0,
-      "description": "Performs 360-degree flips and spins. Durable design for indoor and outdoor play.",
-      "image_url": "https://picsum.photos/seed/rccar/300/300",
-      "category": "Toys",
-      "rating": 4.5
-    },
-    {
-      "id": 8002,
-      "name": "Classic Wooden Building Blocks Set (100 pcs)",
-      "price": 29.99,
-      "description": "Non-toxic, high-quality wood blocks for creative and imaginative play.",
-      "image_url": "https://picsum.photos/seed/blocks/300/300",
-      "category": "Toys",
-      "rating": 4.9
-    },
-    {
-      "id": 8003,
-      "name": "Educational Coding Robot for Kids",
-      "price": 79.99,
-      "description": "Teaches basic programming concepts through fun, interactive games and challenges.",
-      "image_url": "https://picsum.photos/seed/codingrobot/300/300",
-      "category": "Toys",
-      "rating": 4.7
-    },
-    {
-      "id": 8004,
-      "name": "Play Kitchen Set (Miniature)",
-      "price": 65.0,
-      "description": "Realistic stove, sink, and oven for aspiring chefs. Includes accessories.",
-      "image_url": "https://picsum.photos/seed/playkitchen/300/300",
-      "category": "Toys",
-      "rating": 4.6
-    },
-    {
-      "id": 8005,
-      "name": "Dollhouse with Furniture (3 Stories)",
-      "price": 110.0,
-      "description": "Large wooden dollhouse with open design for easy access and play.",
-      "image_url": "https://picsum.photos/seed/dollhouse/300/300",
-      "category": "Toys",
-      "rating": 4.8
-    },
-    {
-      "id": 8006,
-      "name": "Glow-in-the-Dark Slime Kit",
-      "price": 14.99,
-      "description": "Safe and non-toxic kit to create colorful, glowing slime. Science and fun!",
-      "image_url": "https://picsum.photos/seed/slime/300/300",
-      "category": "Toys",
-      "rating": 4.4
-    },
-    {
-      "id": 9001,
-      "name": "Men's Chronograph Dress Watch",
-      "price": 199.99,
-      "description": "Swiss quartz movement with stainless steel case and genuine leather strap.",
-      "image_url": "https://picsum.photos/seed/dresswatch/300/300",
-      "category": "Watches",
-      "rating": 4.7
-    },
-    {
-      "id": 9002,
-      "name": "Women's Minimalist Mesh Watch",
-      "price": 89.0,
-      "description": "Thin profile with a clean dial and adjustable rose gold mesh band.",
-      "image_url": "https://picsum.photos/seed/meshwatch/300/300",
-      "category": "Watches",
-      "rating": 4.6
-    },
-    {
-      "id": 9003,
-      "name": "Digital Sports Watch (50m Waterproof)",
-      "price": 45.5,
-      "description": "Stopwatch, alarm, and backlight features. Ideal for swimming and fitness tracking.",
-      "image_url": "https://picsum.photos/seed/sportswatch/300/300",
-      "category": "Watches",
-      "rating": 4.5
-    },
-    {
-      "id": 9004,
-      "name": "Automatic Diver's Watch (200m)",
-      "price": 399.0,
-      "description": "Self-winding mechanical movement with unidirectional bezel and luminous markers.",
-      "image_url": "https://picsum.photos/seed/diverswatch/300/300",
-      "category": "Watches",
-      "rating": 4.9
-    },
-    {
-      "id": 9005,
-      "name": "Leather Cuff Watch (Unisex)",
-      "price": 75.0,
-      "description": "Wide leather strap and large face for a rugged, vintage look.",
-      "image_url": "https://picsum.photos/seed/cuffwatch/300/300",
-      "category": "Watches",
-      "rating": 4.4
-    },
-    {
-      "id": 9006,
-      "name": "Smartwatch with GPS and Heart Rate",
-      "price": 249.99,
-      "description": "Full health and fitness tracking, notifications, and long battery life.",
-      "image_url": "https://picsum.photos/seed/smartwatch/300/300",
-      "category": "Watches",
-      "rating": 4.7
-    },
-    {
-      "id": 10001,
-      "name": "Rapid Heat Smart Kettle",
+      "id": "4",
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
       "price": 49.99,
-      "description": "Boil water in under 60 seconds. Features temperature control via app and a sleek, stainless steel design.",
-      "image_url": "https://picsum.photos/seed/kettle/300/300",
-      "category": "Appliances",
-      "rating": 4.7
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 10002,
-      "name": "Large Capacity Chest Freezer (300L)",
-      "price": 450.0,
-      "description": "Energy-efficient freezer with adjustable thermostat and integrated drain for easy defrosting.",
-      "image_url": "https://picsum.photos/seed/freezer/300/300",
-      "category": "Appliances",
-      "rating": 4.5
+      "id": "5",
+      "name": "Leather Jacket",
+      "category": "Clothing",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 10003,
-      "name": "Semi-Automatic Washing Machine (7Kg)",
-      "price": 210.5,
-      "description": "Twin-tub design for separate washing and spinning. High power motor for tough stains.",
-      "image_url": "https://picsum.photos/seed/washingmachine/300/300",
-      "category": "Appliances",
-      "rating": 4.6
+      "id": "6",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 59.99,
+      "image": "https://unsplash.com/photos/black-and-red-lg-portable-speaker-zxvnrxl5OXc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 10004,
-      "name": "High-Velocity Standing Fan (18 Inch)",
-      "price": 65.0,
-      "description": "Three-speed settings with wide-angle oscillation. Heavy-duty construction for durability.",
-      "image_url": "https://picsum.photos/seed/fan/300/300",
-      "category": "Appliances",
-      "rating": 4.4
+      "id": "7",
+      "name": "Smart Watch",
+      "category": "Accessories",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 10005,
-      "name": "Microwave Oven with Grill Function",
-      "price": 115.99,
-      "description": "25-liter capacity with 10 power levels and digital timer. Perfect for quick heating and grilling.",
-      "image_url": "https://picsum.photos/seed/microwave/300/300",
-      "category": "Appliances",
-      "rating": 4.8
+      "id": "8",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1505740106531-4243f3831145?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
-      "id": 10006,
-      "name": "Vacuum Cleaner (Bagless Cyclonic)",
-      "price": 99.0,
-      "description": "Powerful suction for carpets and hard floors. Easy-to-empty dust container.",
-      "image_url": "https://picsum.photos/seed/vacuum/300/300",
-      "category": "Appliances",
-      "rating": 4.5
+      "id": "9",
+      "name": "Denim Jeans",
+      "category": "Clothing",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "10",
+      "name": "Air Fryer",
+      "category": "Home Appliances",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1611599539393-3d52c4e7b3e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "11",
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "12",
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "price": 499.99,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "13",
+      "name": "Hoodie",
+      "category": "Clothing",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1509942774463-acf66b1c6b3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "14",
+      "name": "Microwave Oven",
+      "category": "Home Appliances",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "15",
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "16",
+      "name": "4K Smart TV",
+      "category": "Electronics",
+      "price": 599.99,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "17",
+      "name": "Sneakers",
+      "category": "Clothing",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd3be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "18",
+      "name": "Electric Kettle",
+      "category": "Home Appliances",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "19",
+      "name": "Wristwatch",
+      "category": "Accessories",
+      "price": 99.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "20",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1613146062490-2c7e8e6a2e6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2c2b",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 3,
+          "totalPrice": 269.96999999999997,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "8eaa",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 3,
+          "totalPrice": 269.96999999999997,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "e92d",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 2,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "dd2b",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 2,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "0e3c",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 2,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "ca4f",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 2,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "0707",
+      "customer": "Makanjuola Sodiq",
+      "phone": "",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 2,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "088c",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "iPhone 14",
+          "price": 799.99,
+          "quantity": 2,
+          "totalPrice": 1599.98,
+          "id": "2"
+        }
+      ]
+    },
+    {
+      "id": "9751",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 2,
+          "totalPrice": 179.98,
+          "id": "3"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "iPhone 14",
+          "price": 799.99,
+          "quantity": 4,
+          "totalPrice": 3199.96,
+          "id": "2"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 1,
+          "totalPrice": 1999.99,
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "id": "3522",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 3,
+          "totalPrice": 3999.98,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+          "name": "Coffee Maker",
+          "price": 49.99,
+          "quantity": 4,
+          "totalPrice": 199.96,
+          "id": "4"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Denim Jeans",
+          "price": 59.99,
+          "quantity": 3,
+          "totalPrice": 179.97,
+          "id": "9"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Electric Kettle",
+          "price": 34.99,
+          "quantity": 2,
+          "totalPrice": 69.98,
+          "id": "18"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Sunglasses",
+          "price": 29.99,
+          "quantity": 4,
+          "totalPrice": 119.96,
+          "id": "11"
+        }
+      ]
+    },
+    {
+      "id": "eece",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 3,
+          "totalPrice": 5999.97,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 1,
+          "totalPrice": 89.99,
+          "id": "3"
+        }
+      ]
+    },
+    {
+      "id": "681f",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "iPhone 14",
+          "price": 799.99,
+          "quantity": 2,
+          "totalPrice": 1599.98,
+          "id": "2"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1000&q=80",
+          "name": "Coffee Maker",
+          "price": 49.99,
+          "quantity": 1,
+          "totalPrice": 49.99,
+          "id": "4"
+        }
+      ]
+    },
+    {
+      "id": "174b",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "iPhone 14",
+          "price": 799.99,
+          "quantity": 5,
+          "totalPrice": 3999.95,
+          "id": "2"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 4,
+          "totalPrice": 7999.96,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 3,
+          "totalPrice": 269.96999999999997,
+          "id": "3"
+        }
+      ],
+      "orderedAt": "2025-10-30T21:48:41.371Z"
+    },
+    {
+      "id": "e558",
+      "customer": "Makanjuola Sodiq",
+      "phone": "08162982917",
+      "address": "Lato Amuloko",
+      "cart": [
+        {
+          "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "MacBook Pro 14\"",
+          "price": 1999.99,
+          "quantity": 4,
+          "totalPrice": 7999.96,
+          "id": "1"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "quantity": 5,
+          "totalPrice": 449.95,
+          "id": "3"
+        }
+      ],
+      "TotalCartPrice": 8449.91,
+      "TotalCartQuantity": 9,
+      "orderedAt": "2025-10-30T21:55:35.848Z"
     }
   ]
 }

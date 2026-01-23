@@ -21,10 +21,18 @@ function Sidebar() {
   };
 
   const handlePriceFilter = () => {
+    const minPrice = Math.max(20, Number(priceMin)); // Ensure minimum is at least 20
+    const maxPrice = Number(priceMax);
+    
+    if (minPrice > maxPrice) {
+      alert("Minimum price cannot be greater than maximum price");
+      return;
+    }
+    
     dispatch({
       type: "set-filter",
       payload: {
-        priceRange: { min: Number(priceMin), max: Number(priceMax) },
+        priceRange: { min: minPrice, max: maxPrice },
       },
     });
   };
@@ -37,7 +45,7 @@ function Sidebar() {
   };
 
   const handleResetFilters = () => {
-    setPriceMin(0);
+    setPriceMin(20);
     setPriceMax(1000);
     dispatch({ type: "reset-filters" });
   };
@@ -95,7 +103,7 @@ function Sidebar() {
               placeholder="Min"
               value={priceMin}
               onChange={(e) => setPriceMin(e.target.value)}
-              min="0"
+              min="20"
               className="w-20 p-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none text-sm"
             />
             <span className="text-gray-500 font-bold text-sm">-</span>
@@ -104,7 +112,7 @@ function Sidebar() {
               placeholder="Max"
               value={priceMax}
               onChange={(e) => setPriceMax(e.target.value)}
-              min="0"
+              min="20"
               className="w-20 p-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent outline-none text-sm"
             />
           </div>

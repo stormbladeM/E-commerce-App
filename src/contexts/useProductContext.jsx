@@ -37,7 +37,7 @@ const initialState = {
   orders: loadOrders(),
   filters: {
     category: "all",
-    priceRange: { min: 0, max: 1000 },
+    priceRange: { min: 20, max: 1000 },
     sortBy: "default",
   },
 };

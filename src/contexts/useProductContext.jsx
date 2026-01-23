@@ -56,6 +56,12 @@ function reducer(state, action) {
           )
           .filter((item) => item.count > 0),
       };
+    
+    case "remove-from-cart":
+      return {
+        ...state,
+        cart: state.cart.filter((item) => item.id !== action.payload.id),
+      };
 
     default:
       return state;

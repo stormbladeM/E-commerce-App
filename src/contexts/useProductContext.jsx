@@ -18,12 +18,23 @@ const loadWishlist = () => {
   }
 };
 
+// Load orders from localStorage
+const loadOrders = () => {
+  try {
+    const saved = localStorage.getItem("orders");
+    return saved ? JSON.parse(saved) : [];
+  } catch {
+    return [];
+  }
+};
+
 const initialState = {
   cart: [],
   count: 1,
   products: [],
   step: 0,
   wishlist: loadWishlist(),
+  orders: loadOrders(),
   filters: {
     category: "all",
     priceRange: { min: 0, max: 1000 },
@@ -86,6 +97,21 @@ function reducer(state, action) {
         cart: state.cart.filter((item) => item.id !== action.payload.id),
       };
 
+    case "clear-cart":
+      return {
+        ...state,
+        cart: [],
+      };
+
+    case "create-order": {
+      const newOrders = [...state.orders, action.payload];
+      localStorage.setItem("orders", JSON.stringify(newOrders));
+      return {
+        ...state,
+        orders: newOrders,
+      };
+    }
+
     case "toggle-wishlist": {
       const { product } = action.payload;
       const isInWishlist = state.wishlist.some((item) => item.id === product.id);
@@ -93,7 +119,6 @@ function reducer(state, action) {
         ? state.wishlist.filter((item) => item.id !== product.id)
         : [...state.wishlist, product];
       
-      // Save to localStorage
       localStorage.setItem("wishlist", JSON.stringify(newWishlist));
       
       return {
@@ -131,7 +156,7 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ cart, count, clicked, products, step, filters, wishlist }, dispatch] =
+  const [{ cart, count, clicked, products, step, filters, wishlist, orders }, dispatch] =
     useReducer(reducer, initialState);
 
   const [query, setQuery] = useState("");
@@ -189,6 +214,7 @@ function ProductProvider({ children }) {
         step,
         filters,
         wishlist,
+        orders,
       }}
     >
       {children}

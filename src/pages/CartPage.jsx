@@ -104,7 +104,12 @@ function CartPage() {
             <span>Total:</span>
             <span>${(totalPrice * 1.05).toFixed(2)}</span>
           </div>
-          <button className={styles.checkoutBtn}>Proceed to Checkout</button>
+          <button 
+            onClick={() => navigate("/checkout")}
+            className={styles.checkoutBtn}
+          >
+            Proceed to Checkout
+          </button>
           <button
             onClick={() => navigate("/")}
             className={styles.continueBtn}

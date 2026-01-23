@@ -7,7 +7,18 @@ import {
 } from "react";
 const BASE_URL = "https://fakestoreapi.com/products";
 const ProductContext = createContext();
-const initialState = { cart: [], count: 1, products: [], step: 0 };
+const initialState = {
+  cart: [],
+  count: 1,
+  products: [],
+  step: 0,
+  filters: {
+    category: "all",
+    priceRange: { min: 0, max: 1000 },
+    sortBy: "default",
+  },
+};
+
 function reducer(state, action) {
   switch (action.type) {
     case "setStep":
@@ -56,11 +67,23 @@ function reducer(state, action) {
           )
           .filter((item) => item.count > 0),
       };
-    
+
     case "remove-from-cart":
       return {
         ...state,
         cart: state.cart.filter((item) => item.id !== action.payload.id),
+      };
+
+    case "set-filter":
+      return {
+        ...state,
+        filters: { ...state.filters, ...action.payload },
+      };
+
+    case "reset-filters":
+      return {
+        ...state,
+        filters: initialState.filters,
       };
 
     default:
@@ -69,10 +92,8 @@ function reducer(state, action) {
 }
 
 function ProductProvider({ children }) {
-  const [{ cart, count, clicked, products, step }, dispatch] = useReducer(
-    reducer,
-    initialState
-  );
+  const [{ cart, count, clicked, products, step, filters }, dispatch] =
+    useReducer(reducer, initialState);
 
   const [query, setQuery] = useState("");
 
@@ -84,9 +105,51 @@ function ProductProvider({ children }) {
     }
     fetchProducts();
   }, []);
+
+  // Filter and sort products
+  const filteredProducts = products
+    .filter((product) => {
+      // Category filter
+      if (filters.category !== "all" && product.category !== filters.category) {
+        return false;
+      }
+      // Price filter
+      if (
+        product.price < filters.priceRange.min ||
+        product.price > filters.priceRange.max
+      ) {
+        return false;
+      }
+      return true;
+    })
+    .sort((a, b) => {
+      // Sorting
+      switch (filters.sortBy) {
+        case "price-asc":
+          return a.price - b.price;
+        case "price-desc":
+          return b.price - a.price;
+        case "name-asc":
+          return a.title.localeCompare(b.title);
+        case "name-desc":
+          return b.title.localeCompare(a.title);
+        default:
+          return 0;
+      }
+    });
+
   return (
     <ProductContext.Provider
-      value={{ products, dispatch, cart, clicked, count, step }}
+      value={{
+        products: filteredProducts,
+        allProducts: products,
+        dispatch,
+        cart,
+        clicked,
+        count,
+        step,
+        filters,
+      }}
     >
       {children}
     </ProductContext.Provider>
